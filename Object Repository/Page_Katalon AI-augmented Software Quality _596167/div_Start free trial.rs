@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Start free trial</name>
+   <tag></tag>
+   <elementGuidId>a5a72f86-0445-4916-a8dc-ed66141faf0e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='All jobs'])[2]/following::div[6]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.btn_start_free_trial</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Start free trial&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4f142ac3-84fb-458b-85b8-8c39b5fbea85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn_start_free_trial</value>
+      <webElementGuid>e2a71b1a-fd6f-4058-b284-27d7b5db1e38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Start free trial</value>
+      <webElementGuid>ed4e6e2f-fbd6-46df-b08f-0fc7ece43427</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[1]/div[@class=&quot;HomePage_wrapHomePage__zdHwS&quot;]/section[@class=&quot;hero_section&quot;]/div[@class=&quot;left_content&quot;]/div[@class=&quot;button_section&quot;]/a[@class=&quot;trackable&quot;]/div[@class=&quot;btn_start_free_trial&quot;]</value>
+      <webElementGuid>f807a2e5-789c-44da-bb73-02faa7153715</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All jobs'])[2]/following::div[6]</value>
+      <webElementGuid>0b9a3d2f-2705-4d57-866e-942dcd9fdb24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View demo'])[1]/preceding::div[2]</value>
+      <webElementGuid>a167661d-5955-4ed4-a106-c5331b37c5d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Start free trial' or . = 'Start free trial')]</value>
+      <webElementGuid>60fec9e6-a6bb-4ad1-9d76-18eda1efef17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div[2]/section/div/div[2]/a/div</value>
+      <webElementGuid>f0e0e5d4-5ff4-4df4-bef5-64165b1a7d89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/section/div/div[2]/a/div</value>
+      <webElementGuid>618c5990-e24d-4924-a09b-030b2f4aa3b6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

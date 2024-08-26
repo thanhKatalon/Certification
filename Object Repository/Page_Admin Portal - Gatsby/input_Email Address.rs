@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Email Address</name>
+   <tag></tag>
+   <elementGuidId>6ab07a96-e17f-4c61-936f-ff40c6c23d65</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type = 'text' and @id = 'signInName' and @name = 'Email Address' and @title = 'Please enter a valid Email Address' and @placeholder = 'Email Address']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#signInName</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>fc5b819f-0bfa-4596-953c-408d5d3dd5ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>91207b06-0d18-4b0b-a192-561d564edaba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>signInName</value>
+      <webElementGuid>95053956-9afd-49ef-a100-e66cb2f50dfb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Email Address</value>
+      <webElementGuid>35803055-10b3-408d-9a85-f408ca0db629</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Please enter a valid Email Address</value>
+      <webElementGuid>31d46f9e-a5a4-4184-851e-c4ad914e4b12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Email Address</value>
+      <webElementGuid>4208e312-7514-48de-91bf-500cabca4d2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Email Address</value>
+      <webElementGuid>0fec1af3-a48e-4084-9a76-ea845d7b17a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;signInName&quot;)</value>
+      <webElementGuid>2d3004f0-f25c-40c0-aca7-ea816478985b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @id = 'signInName' and @name = 'Email Address' and @title = 'Please enter a valid Email Address' and @placeholder = 'Email Address']</value>
+      <webElementGuid>9956b2d0-6154-422f-abbf-d2e9846786be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='signInName']</value>
+      <webElementGuid>f235c420-9105-43b6-b702-d61213f9407a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='localAccountForm']/div[3]/div/input</value>
+      <webElementGuid>58561179-c5d0-4de2-bd03-df6abbcc06f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>5a680c55-a4c3-479c-b703-8d8b2356c8d6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

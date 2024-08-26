@@ -1,0 +1,20 @@
+version: 0.2
+env:
+  parameter-store:
+   KATALON_API_KEY: /CodeBuild/KATALON_API_KEY
+phases:
+  pre_build:
+    commands:
+      - docker pull katalonstudio/katalon:8.6.8
+  build:
+    commands:
+      - docker run -t --rm -v "$(pwd)":/katalon/katalon/source katalonstudio/katalon:8.6.8 katalon-execute.sh -apiKey=$KATALON_API_KEY -browserType="Chrome" -retry=0 -orgID=797741 -statusDelay=15 -testSuitePath="Test Suites/New Folder/TS_Account" -executionProfile="default"
+artifacts:
+  files:
+    - report/*
+reports: #New
+  KatalonTestReports: # CodeBuild will create a report group called "KatalonTetReport".
+    files: #Store all of the files
+      - 'report/JUnit_Report.xml'
+
+

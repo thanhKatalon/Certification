@@ -1,0 +1,112 @@
+#!/bin/bash
+
+set -xe
+
+mkdir -p $KATALON_BASE_ROOT_DIR
+cd $KATALON_BASE_ROOT_DIR
+
+apt-get update
+
+echo "Install tools"
+apt -y install apt-utils
+apt -y install wget
+apt -y install unzip
+apt -y install curl
+apt -y install gosu
+
+echo "Install JRE"
+apt -y install openjdk-17-jdk
+
+echo "Install CircleCI tools"
+apt -y install git
+apt -y install ssh
+apt -y install tar
+apt -y install gzip
+apt -y install ca-certificates
+
+echo "Install Xvfb"
+apt -y install xvfb
+
+echo "Install fonts"
+apt -y install libfontconfig
+apt -y install libfreetype6
+apt -y install xfonts-cyrillic
+apt -y install xfonts-scalable
+apt -y install fonts-liberation
+apt -y install fonts-ipafont-gothic
+apt -y install fonts-wqy-zenhei
+apt -y install fonts-tlwg-loma-otf
+apt -y install ttf-ubuntu-font-family
+
+echo "Install Mozilla Firefox"
+# apt -y install firefox
+apt -y install software-properties-common
+apt update
+add-apt-repository ppa:mozillateam/ppa
+apt update && apt install -y -t "o=LP-PPA-mozillateam" firefox
+# Install 'pulseaudio' package to support WebRTC audio streams
+apt -y install pulseaudio
+echo "$(firefox -version)" >> $KATALON_VERSION_FILE
+
+echo "Install Google Chrome"
+CHROME_VERSION=112.0.5615.49-1
+CHROME_PACKAGE=google-chrome.deb
+echo Downloading Chrome $CHROME_VERSION
+wget http://mirror.cs.uchicago.edu/google-chrome/pool/main/g/google-chrome-stable/google-chrome-stable_112.0.5615.49-1_amd64.deb -O $CHROME_PACKAGE
+echo Installing custom Chrome package
+dpkg -i $CHROME_PACKAGE
+echo Capture Chrome version
+echo "$(google-chrome --version)" >> $KATALON_VERSION_FILE
+
+
+./wrap_chrome_binary.sh && rm -rfv ./wrap_chrome_binary.sh
+
+echo "Install Edge Chromium"
+microsoft_edge_package='MicrosoftEdgeSetup.exe'
+wget -O $microsoft_edge_package https://go.microsoft.com/fwlink?linkid=2149051
+dpkg -i $microsoft_edge_package || apt -y -f install
+rm $microsoft_edge_package
+echo "$(microsoft-edge --version)" >> $KATALON_VERSION_FILE || true
+
+./wrap_edge_chromium_binary.sh && rm -rfv ./wrap_edge_chromium_binary.sh
+
+echo "Install Gradle"
+gradle_version='5.4.1'
+gradle_package="gradle-$gradle_version-bin.zip"
+gradle_unzipped_package="gradle-$gradle_version"
+wget https://downloads.gradle.org/distributions/gradle-$gradle_version-bin.zip
+ls
+unzip $gradle_package
+ls
+rm $gradle_package
+mv $gradle_unzipped_package $GRADLE_HOME
+ls $GRADLE_HOME
+
+# copy scripts
+mkdir -p $KATALON_KATALON_ROOT_DIR
+cd $KATALON_KATALON_ROOT_DIR
+
+echo "Install Katalon"
+katalon_version="$KATALON_STUDIO_VERSION"
+katalon_directory="$version"
+katalon_package="Katalon_Studio_Engine_Linux_64-$katalon_version.tar.gz"
+katalon_unzipped_directory="Katalon_Studio_Engine_Linux_64-$katalon_version"
+wget -O $katalon_package https://download.katalon.com/$katalon_version/Katalon_Studio_Engine_Linux_64-$katalon_version.tar.gz
+ls
+tar -xvzf $katalon_package -C $KATALON_KATALON_INSTALL_DIR_PARENT
+ls
+rm $katalon_package
+mv $KATALON_KATALON_INSTALL_DIR_PARENT/$katalon_unzipped_directory $KATALON_KATALON_INSTALL_DIR
+chmod u+x $KATALON_KATALON_INSTALL_DIR/katalonc
+chmod -R u+x $KATALON_KATALON_INSTALL_DIR/configuration/resources/drivers
+echo "Katalon Studio $version" >> $KATALON_VERSION_FILE
+
+chmod -R 777 $KATALON_ROOT_DIR
+chmod -R 777 $KATALON_SOFTWARE_DIR
+
+# clean up
+
+echo "Clean up"
+apt clean all
+rm -rf /var/lib/apt/lists/*
+cat $KATALON_VERSION_FILE

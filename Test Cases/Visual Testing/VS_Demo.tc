@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>client1(production env)</description>
+   <name>VS_Demo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6bd038ee-4222-450a-9228-79a13709243f</testCaseGuid>
+</TestCaseEntity>
