@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>API_Test_Case 1</name>
-   <tag></tag>
+   <tag>a,b</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>bc8be939-70c7-49a7-b0f2-a1cf8eab5fbf</testCaseGuid>

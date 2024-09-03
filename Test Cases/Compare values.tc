@@ -2,7 +2,8 @@
 <TestCaseEntity>
    <description></description>
    <name>Compare values</name>
-   <tag></tag>
+   <tag>a,b</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>fcaff7a8-c80d-4323-a105-98c5ffb11248</testCaseGuid>
 </TestCaseEntity>

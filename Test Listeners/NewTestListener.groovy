@@ -22,28 +22,22 @@ import com.kms.katalon.core.annotation.AfterTestSuite
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
-//class NewTestListener {
+class NewTestListener {
 	/**
 	 * Executes after every test case ends.
 	 * @param testCaseContext related information of the executed test case.
 	 */
-//	@AfterTestCase
-//	def getStatus(TestCaseContext testCaseContext) {
-//		def testCaseStatus = testCaseContext.getTestCaseStatus();
-//		println("Status is : " + testCaseStatus)
-//		
-//		def testCaseID = testCaseContext.getTestCaseId()
-//		println("Status is : " + testCaseID)
-//	
-//	}
-//
-//	@AfterTestSuite
-//	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
-//		def testSuiteStatus = testSuiteContext.getStatus()
-//		println("Status is : " + testSuiteStatus)
-//		
-//		def testSuiteID = testSuiteContext.getTestSuiteId()
-//		println("Status is : " + testSuiteID)
-//		
-//	}
-//}
+
+	@BeforeTestCase
+	def BeforeTestCase(TestCaseContext testCaseContext) {
+		println testCaseContext.getTestCaseId()
+		println testCaseContext.getTestCaseStatus()
+		
+		//Run Cleanup Script.
+		def testCase = findTestCase(testCaseContext.getTestCaseId())
+		
+		if(testCase.tag.contains("a,b")) {
+			System.out.println("List of test cases: " + testCase)
+		}
+	}
+}

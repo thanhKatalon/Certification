@@ -26,6 +26,8 @@ WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.setViewPortSize(1440, 875)
 
+WebUI.maximizeWindow()
+
 WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'), 
     5)
 
