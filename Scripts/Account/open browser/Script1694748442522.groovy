@@ -25,7 +25,7 @@ WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.maximizeWindow()
 
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject(''), 
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/a_Change address'), 
     5)
 
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
