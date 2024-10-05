@@ -21,5 +21,3 @@ import org.openqa.selenium.Keys as Keys
 import customkeyword.AppPath
 import customkeyword.AppStarter
 
-WebUI.click(findTestObject('Object Repository/Button_Update'))
-
