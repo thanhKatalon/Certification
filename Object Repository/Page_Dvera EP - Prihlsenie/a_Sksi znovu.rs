@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Sksi znovu</name>
+   <tag></tag>
+   <elementGuidId>eac9e7f2-a85d-40de-b613-a2b1fc1d8a31</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='login']/div/div/div/div/div/div/div[4]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Skúsiť znovu&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7091b0fc-f70e-447c-9c63-266534ff3bdb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn</value>
+      <webElementGuid>77637b79-eb89-46b5-9e08-010541534136</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.dovera.sk</value>
+      <webElementGuid>4a38c088-f27f-45e5-9105-0692a9d4b336</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Skúsiť znovu</value>
+      <webElementGuid>bc8d846b-8465-43fa-9384-1cfdd56879c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;login&quot;)/div[@class=&quot;page-section page-section--grey page-section--pt-small&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card__section&quot;]/div[@class=&quot;state-messages state-messages--warning align-items-center&quot;]/div[@class=&quot;state-messages__content&quot;]/div[@class=&quot;btn-layout btn-layout--vertical btn-layout--m-horizontal align-items-center&quot;]/a[@class=&quot;btn&quot;]</value>
+      <webElementGuid>049993f4-8381-4d68-b65c-f7ad0b271971</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='login']/div/div/div/div/div/div/div[4]/a</value>
+      <webElementGuid>fbecf95e-fec6-4ece-b04a-586bd72cef3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prepáčte, nastala chyba na našej strane'])[1]/following::a[1]</value>
+      <webElementGuid>dc7c8e0d-5841-4553-bb76-3819996744d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Elektronická pobočka'])[1]/following::a[1]</value>
+      <webElementGuid>915bcfa2-a618-49c8-81f0-bebc8912fcbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Skúsiť znovu']/parent::*</value>
+      <webElementGuid>fb2a1e67-b883-48b8-8ac8-55eef61762b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://www.dovera.sk')])[3]</value>
+      <webElementGuid>25f9fbb1-e6ca-48e9-b89f-a08b9ed30ec9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/a</value>
+      <webElementGuid>4aec36a6-d7f0-49c2-8cf5-e57c106eb480</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://www.dovera.sk' and (text() = 'Skúsiť znovu' or . = 'Skúsiť znovu')]</value>
+      <webElementGuid>18f69c20-a8ac-44d3-b7d0-0ad7f1934767</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

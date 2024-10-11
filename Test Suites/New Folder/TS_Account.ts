@@ -17,5 +17,11 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/New Test Case</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>160c774a-76cf-4d42-829f-7bd2e1b4257d</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

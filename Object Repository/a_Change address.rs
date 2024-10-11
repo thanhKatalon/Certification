@@ -11,10 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Change address')]</value>
+         <value>//a[contains(text(),'Change')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>df2c271c-7af3-40c2-9513-ccc757624a44</webElementGuid>
+      <webElementGuid>ce550893-70eb-4093-a69a-c762ac30d847</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +31,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>e1a6daf3-9f69-45e5-a54d-d238aeb1fdca</webElementGuid>
+      <webElementGuid>458ac86a-b121-4c19-b08b-6256060aecb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>shipping-calculator-button tdfocus-1680079135678</value>
-      <webElementGuid>c0660595-48d0-462f-9ee2-0552c09365a3</webElementGuid>
+      <webElementGuid>91e35946-0739-43d3-a46f-e4c7b46fdcf6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Change address</value>
-      <webElementGuid>9ba95b5b-33e6-42ce-82f1-4a1e613363a7</webElementGuid>
+      <webElementGuid>d89ee5a7-86cb-4f00-8985-457ba1deee9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;post-8&quot;)/div[@class=&quot;entry-content&quot;]/div[@class=&quot;woocommerce&quot;]/div[@class=&quot;cart-collaterals&quot;]/div[@class=&quot;cart_totals&quot;]/table[@class=&quot;shop_table shop_table_responsive&quot;]/tbody[1]/tr[@class=&quot;woocommerce-shipping-totals shipping&quot;]/td[1]/form[@class=&quot;woocommerce-shipping-calculator&quot;]/a[@class=&quot;shipping-calculator-button tdfocus-1680079135678&quot;]</value>
-      <webElementGuid>bc8fbe6c-89e6-4cbe-8dc3-185161faad56</webElementGuid>
+      <webElementGuid>f2911c04-f67d-4148-bb14-31ae4e67be4f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//article[@id='post-8']/div/div/div[2]/div[2]/table/tbody/tr[2]/td/form/a</value>
-      <webElementGuid>d87268b5-2e17-4f0b-b9a7-f5ad3192a6b1</webElementGuid>
+      <webElementGuid>6c894ee1-23a1-4da1-a2ef-eff923fd902a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Change address')]</value>
-      <webElementGuid>7dc2580e-af35-4020-9942-e329ebe476e6</webElementGuid>
+      <webElementGuid>2c74d18a-c2eb-4941-bd77-5aaea1e61c05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[7]/following::a[1]</value>
-      <webElementGuid>59eb4526-f8df-4cdc-83a6-96830e2e71de</webElementGuid>
+      <webElementGuid>9599b257-4305-42f8-b009-e2a0ccaabbf3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Update'])[1]/preceding::a[1]</value>
-      <webElementGuid>916ea08f-c0d2-405a-8b71-55773af6f9cd</webElementGuid>
+      <webElementGuid>10fa7534-e2f3-406e-9faa-d6da2d70d632</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[2]/preceding::a[1]</value>
-      <webElementGuid>152787b5-0216-47a5-98ae-c7f243429489</webElementGuid>
+      <webElementGuid>26868e3a-d9db-4c75-be90-cf83431be2f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Change address']/parent::*</value>
-      <webElementGuid>d71882c7-13d4-4034-9001-a5d41579d21d</webElementGuid>
+      <webElementGuid>f0a523c2-a09b-4c4a-8b86-04c918860599</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +111,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[2]</value>
-      <webElementGuid>626115d1-19d6-4d0c-a7d8-b405bc247bee</webElementGuid>
+      <webElementGuid>8ea6c6da-e2ad-4503-879c-60d924930580</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +119,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/a</value>
-      <webElementGuid>9bde8492-337b-4e77-bde9-cbfc9780fd36</webElementGuid>
+      <webElementGuid>271b7358-024d-4dea-bf2f-9a53200c3f82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +127,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Change address' or . = 'Change address')]</value>
-      <webElementGuid>8e8fb4e5-2afd-4ed5-80b7-d5277f73386e</webElementGuid>
+      <webElementGuid>c0a0486a-bdf7-4b6b-b9fc-029ceb16d6b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

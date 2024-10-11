@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Prihlsi sa</name>
+   <tag></tag>
+   <elementGuidId>193e40b8-4123-4eda-bc74-db9af4896567</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.mb-small</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Prihlásiť sa&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3319f520-3a90-4098-959b-58a189ddb84b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>eee20d46-625d-4c6e-ac29-b2ab4543cc6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn mb-small</value>
+      <webElementGuid>59f06cc7-ac82-4dcf-9c4d-289f1e6fd422</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Prihlásiť sa</value>
+      <webElementGuid>1020765f-6a28-4cb8-bb26-9292ed5f2892</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/section[@class=&quot;page-section page-section--grey&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;grid__col grid__col--m-6 grid__col--center-offset mb-large&quot;]/div[@class=&quot;c013 c016&quot;]/div[@class=&quot;bar bar--vertical c011&quot;]/button[@class=&quot;btn mb-small&quot;]</value>
+      <webElementGuid>d553de8d-ee9c-44fe-a5e8-18f2befd6f3a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[4]</value>
+      <webElementGuid>a62f18e4-58cb-4041-94ab-73ddb27b6d4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/section/div/div/div/div/button</value>
+      <webElementGuid>933d6da7-47dc-4fab-9450-0131f2e6924f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vitajte!'])[1]/following::button[1]</value>
+      <webElementGuid>33346d08-e743-48ba-8539-9728a73dd8cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kód na zdieľanie'])[2]/following::button[1]</value>
+      <webElementGuid>340daf11-256d-46af-856f-4e646b777dba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nepamätám si prihlasovacie údaje'])[1]/preceding::button[1]</value>
+      <webElementGuid>1e6b6dc4-45c9-44d9-a7db-39a3d1cd2e19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ste tu prvýkrát a chcete sa zaregistrovať?'])[1]/preceding::button[2]</value>
+      <webElementGuid>18f9ce39-e824-42fa-9a1e-d5dddabe0569</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Prihlásiť sa']/parent::*</value>
+      <webElementGuid>43bcc1b3-8dd8-412a-99da-434a033dcfaa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div/div/div/button</value>
+      <webElementGuid>c384fc16-37f3-4e91-8581-6968efb0288a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Prihlásiť sa' or . = 'Prihlásiť sa')]</value>
+      <webElementGuid>cdf70092-b756-4d55-b29b-72831b595f36</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
