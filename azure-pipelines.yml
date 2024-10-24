@@ -9,10 +9,11 @@ steps:
   displayName: 'Execute Katalon Studio project'
   inputs:
     version: '9.6.0'
-    executeArgs: '-testSuitePath="Test Suites/TS-01" -browserType="Chrome" -executionProfile="default" -apiKey="690cc2ef-fc86-45cb-be6b-2da519401efb" -orgID=198128 --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true'
+    executeArgs: '-testSuitePath="Test Suites/TS-01" -browserType="Chrome" -executionProfile="default" -apiKey="xxx" -orgID=xxx --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true'
     xvfbConfiguration: '-a -n 0 -s "-screen 0 1024x768x24"'
 - task: PublishPipelineArtifact@0
   condition: succeededOrFailed() 
   inputs:
     artifactName: 'JUnit Report' 
-    targetPath: report/
+    targetPath: '$(Pipeline.Workspace)'
+  condition: always()

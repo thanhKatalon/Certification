@@ -27,7 +27,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
-      <name>URL</name>
+      <name>value</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

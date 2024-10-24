@@ -20,15 +20,15 @@ import org.openqa.selenium.WebDriver as WebDriver
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 
-
 WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.maximizeWindow()
 
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/a_Change address'), 
-    5)
+GlobalVariable.value = "btn-make-appointment"
 
-WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
+WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
 
+WebUI.takeFullPageScreenshot()
 
+//WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_username'), '')
 
