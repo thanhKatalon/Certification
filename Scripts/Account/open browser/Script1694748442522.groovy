@@ -30,5 +30,7 @@ WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
 
 WebUI.takeFullPageScreenshot()
 
-//WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_username'), '')
+GlobalVariable.value = "txt-username"
+
+WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
