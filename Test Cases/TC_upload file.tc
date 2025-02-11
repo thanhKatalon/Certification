@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Client1(test env)</description>
+   <description>abc</description>
    <name>TC_upload file</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>2f5e40c5-d2bd-4c43-a976-65df1e8cf96a</testCaseGuid>
 </TestCaseEntity>
