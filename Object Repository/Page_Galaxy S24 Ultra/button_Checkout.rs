@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Checkout</name>
+   <tag></tag>
+   <elementGuidId>fda4f07c-01d1-4524-b407-25c2aef9f89b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.pill-btn.pill-btn--black</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[(text() = ' Checkout ' or . = ' Checkout ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Checkout&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>63df2f28-41e0-4190-85f5-dff0a107919f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pill-btn pill-btn--black</value>
+      <webElementGuid>478a18ae-86c2-4c0a-b8be-2fa66beb8640</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-an-tr</name>
+      <type>Main</type>
+      <value>other-interaction</value>
+      <webElementGuid>109220c0-59db-48b6-93a8-29d3797f9b77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-an-la</name>
+      <type>Main</type>
+      <value>recommended product confirmation pop up:ok</value>
+      <webElementGuid>b3891167-1b54-4ca3-b67e-e98251c97c8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Checkout </value>
+      <webElementGuid>4fcf2cb3-2a7d-4381-840b-8bedfd28d2ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/app-root[@class=&quot;au&quot;]/app-add-cart-modal[@class=&quot;d-block fade modal show&quot;]/div[@class=&quot;modal__container add-to-cart-container&quot;]/div[@class=&quot;button-container modal__footer&quot;]/button[@class=&quot;pill-btn pill-btn--black&quot;]</value>
+      <webElementGuid>5fe96a97-2999-4503-9564-26be7910d206</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stay in the loop?'])[1]/following::button[1]</value>
+      <webElementGuid>cc4247be-e10c-48ef-8f37-6ee456a202a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='legal'])[1]/following::button[1]</value>
+      <webElementGuid>3368f2d3-1293-46b9-9ea4-1a280a44a0c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue Shopping'])[1]/preceding::button[1]</value>
+      <webElementGuid>32f1b3fe-acad-412a-8147-410c3d51ad50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Checkout']/parent::*</value>
+      <webElementGuid>22771436-4fbc-4895-9eb4-7993703f5d97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-add-cart-modal/div/div[2]/button</value>
+      <webElementGuid>ca9defec-3037-45c0-b8dd-5c140cc16c61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Checkout ' or . = ' Checkout ')]</value>
+      <webElementGuid>965081ac-6ab2-4e40-a336-41906613c5b3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

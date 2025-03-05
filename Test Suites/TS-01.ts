@@ -12,10 +12,16 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>c21f6ddd-a07b-4ae4-b3b5-3a6aec77d007</testSuiteGuid>
    <testCaseLink>
-      <guid>86784469-eccc-41a3-8878-ab8481c222f1</guid>
+      <guid>b222dc8e-5ed1-4f5d-bc8a-447020ac1c02</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_upload file</testCaseId>
+      <testCaseId>Test Cases/New Test Case</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>160c774a-76cf-4d42-829f-7bd2e1b4257d</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

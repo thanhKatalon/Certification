@@ -5,6 +5,7 @@ import org.openqa.selenium.remote.LocalFileDetector
 import org.openqa.selenium.support.events.EventFiringWebDriver
 
 import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -33,5 +34,7 @@ WebUI.setViewPortSize(1280, 697)
 WebUI.uploadFile(findTestObject('Object Repository/input_concat(id(, , myFile, , ))_filename'), file)
 
 WebUI.takeFullPageScreenshot()
+
+Mobile.pressKeyCode(file)
 
 

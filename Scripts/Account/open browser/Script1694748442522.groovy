@@ -20,17 +20,19 @@ import org.openqa.selenium.WebDriver as WebDriver
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 
-WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
+not_run: WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
 
-GlobalVariable.value = "btn-make-appointment"
+not_run: GlobalVariable.value = 'btn-make-appointment'
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
+not_run: WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.takeFullPageScreenshot()
+not_run: GlobalVariable.value = 'txt-username'
 
-GlobalVariable.value = "txt-username"
+not_run: WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
-WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+not_run: WebUI.callTestCase(findTestCase('New Test Case'), [('LOGIN') : 'katalon03@gmail.com'], FailureHandling.OPTIONAL)
+
+WebUI.comment('hehe')
 

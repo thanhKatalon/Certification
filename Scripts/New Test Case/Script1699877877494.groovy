@@ -20,20 +20,5 @@ import org.openqa.selenium.Keys as Keys
 import customkeyword.AppPath as AppPath
 import customkeyword.AppStarter as AppStarter
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://test.via.dovera.sk/')
-
-WebUI.setViewPortSize(760, 1024)
-
-WebUI.delay(5)
-
-WebUI.enhancedClick(findTestObject('Object Repository/Page_Via dvera/button_Prihlsi sa'))
-
-WebUI.delay(5)
-
-//String value = ('katalon03' + '@') + 'gmail.com'
-
-WebUI.setText(findTestObject('Object Repository/Page_Dvera EP - Prihlsenie/input_Zisti viac_id-m22ra6yanu303sehyor-input'), 
-    LOGIN)
+Windows.startApplication("C:\\Windows\\System32\\notepad.exe")
 
