@@ -20,5 +20,7 @@ import org.openqa.selenium.Keys as Keys
 import customkeyword.AppPath as AppPath
 import customkeyword.AppStarter as AppStarter
 
-Windows.startApplication("C:\\Windows\\System32\\notepad.exe")
+Windows.startApplication('C:\\Windows\\System32\\notepad.exe')
+
+WebUI.acceptAlert()
 
