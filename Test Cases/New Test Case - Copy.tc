@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>test abc</description>
+   <name>New Test Case - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1895b556-ae99-4be3-8c3a-a8180506af51</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7b449670-f3e2-4b89-8cbf-e09c76bcc0d9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'katalon03@gmail.com'</defaultValue>
+      <description></description>
+      <id>7b449670-f3e2-4b89-8cbf-e09c76bcc0d9</id>
+      <masked>false</masked>
+      <name>LOGIN</name>
+   </variable>
+</TestCaseEntity>
