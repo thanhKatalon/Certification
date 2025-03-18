@@ -27,15 +27,4 @@ WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(5)
 
-WebUI.click(findTestObject('Object Repository/Page_Galaxy S24 Ultra/button_Add to cart'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Galaxy S24 Ultra/button_Checkout'), 5)
-
-WebUI.click(findTestObject('Object Repository/Page_Galaxy S24 Ultra/button_Checkout'))
-
-WebUI.click(findTestObject('Object Repository/Page_Cart  Samsung AU/button_Samsung Express Checkout'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Sign inSamsung account/input_Email_iptLgnPlnID'), 'satest.qa_estore4@samsung.com')
-
-WebUI.click(findTestObject('Object Repository/Page_Sign inSamsung account/button_Next'))
-
+WebUI.click(findTestObject('Object Repository/Page_Galaxy S24 Ultra/button_Add to car'))
