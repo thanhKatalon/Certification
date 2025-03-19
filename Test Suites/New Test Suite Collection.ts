@@ -17,5 +17,15 @@
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/TS-01</testSuiteEntity>
       </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>New_Profile </profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/New Folder/TS_Account</testSuiteEntity>
+      </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
