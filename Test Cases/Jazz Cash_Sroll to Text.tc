@@ -4,6 +4,6 @@
    <name>Jazz Cash_Sroll to Text</name>
    <tag></tag>
    <comment></comment>
-   <recordOption>OTHER</recordOption>
+   <recordOption>TESTCLOUD_NATIVE_MOBILE</recordOption>
    <testCaseGuid>f9702600-32a4-4aac-96ba-ec1d28eb3399</testCaseGuid>
 </TestCaseEntity>
