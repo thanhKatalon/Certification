@@ -1,79 +1,472 @@
 [38;5;112m[Appium][0m Welcome to Appium v2.17.1
 [38;5;112m[Appium][0m Non-default server args:
-[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m64844[39m }
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m61293[39m }
 [38;5;112m[Appium][0m Attempting to load driver xcuitest...
 [38;5;112m[Appium][0m Attempting to load driver uiautomator2...
-[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:64844/wd/hub
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:61293/wd/hub
 [38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
-	http://127.0.0.1:64844/wd/hub (only accessible from the same host)
-	http://192.168.1.9:64844/wd/hub
-	http://169.254.103.36:64844/wd/hub
+	http://127.0.0.1:61293/wd/hub (only accessible from the same host)
+	http://10.10.32.33:61293/wd/hub
+	http://169.254.49.171:61293/wd/hub
 [38;5;112m[Appium][0m Available drivers:
 [38;5;112m[Appium][0m   - xcuitest@7.35.0 (automationName 'XCUITest')
 [38;5;112m[Appium][0m   - uiautomator2@3.10.0 (automationName 'UiAutomator2')
 [38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
 [38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
-[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 3 ms - 111 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 5 ms - 111 
 [38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
-[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 111 
-[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"com.mobilink.jazzcash","appium:deviceName":"V-T-IP003","appium:newCommandTimeout":1800,"appium:platformVersion":"16.5.1","appium:udid":"00008120-0009385E1A38201E","appium:waitForAppScript":"true;","appium:wdaLocalPort":64856,"platformName":"IOS"}]},"desiredCapabilities":{"appium:automationName":"XCUITest","appium:bundleId":"com.mobilink.jazzcash","appium:deviceName":"V-T-IP003","appium:newCommandTimeout":1800,"appium:platformVersion":"16.5.1","appium:udid":"00008120-0009385E1A38201E","appium:waitForAppScript":"true;","appium:wdaLocalPort":64856}}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 3 ms - 111 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"com.mobilink.jazzcash","appium:deviceName":"V-T-IP003","appium:newCommandTimeout":1800,"appium:platformVersion":"16.5.1","appium:udid":"00008120-0009385E1A38201E","appium:waitForAppScript":"true;","appium:wdaLocalPort":61309,"platformName":"IOS"}]},"desiredCapabilities":{"appium:automationName":"XCUITest","appium:bundleId":"com.mobilink.jazzcash","appium:deviceName":"V-T-IP003","appium:newCommandTimeout":1800,"appium:platformVersion":"16.5.1","appium:udid":"00008120-0009385E1A38201E","appium:waitForAppScript":"true;","appium:wdaLocalPort":61309}}
 [38;5;112m[Appium][0m Attempting to find matching driver for automationName 'XCUITest' and platformName 'IOS'
 [38;5;112m[Appium][0m The 'xcuitest' driver was installed and matched caps.
 [38;5;112m[Appium][0m Will require it at /Users/thanh.pnguyen/.appium/node_modules/appium-xcuitest-driver
-[38;5;61m[AppiumDriver@2b1b][0m Appium v2.17.1 creating new XCUITestDriver (v7.35.0) session
-[38;5;61m[AppiumDriver@2b1b][0m Checking BaseDriver versions for Appium and XCUITestDriver
-[38;5;61m[AppiumDriver@2b1b][0m Appium's BaseDriver version is 9.16.4
-[38;5;61m[AppiumDriver@2b1b][0m XCUITestDriver's BaseDriver version is 9.16.4
-[38;5;165m[XCUITestDriver@c4ad][0m The following provided capabilities were not recognized by this driver:
-[38;5;165m[XCUITestDriver@c4ad][0m   waitForAppScript
-[38;5;135m[2361860e][0m[38;5;165m[XCUITestDriver@c4ad][0m Session created with session id: 2361860e-d9af-410b-b3e4-35620f97c256
-[38;5;135m[2361860e][0m[38;5;165m[XCUITestDriver@c4ad][0m Determining device to run tests on: udid: '00008120-0009385E1A38201E', real device: true
-[38;5;135m[2361860e][0m[38;5;165m[XCUITestDriver@c4ad][0m Normalized platformVersion capability value '16.5.1' to '16.5'
-[38;5;135m[2361860e][0m[38;5;165m[XCUITestDriver@c4ad][0m Using WDA path: '/Users/thanh.pnguyen/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
-[38;5;135m[2361860e][0m[38;5;165m[XCUITestDriver@c4ad][0m Using WDA agent: '/Users/thanh.pnguyen/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
-[38;5;135m[2361860e][0m[38;5;165m[XCUITestDriver@c4ad][0m The pyidevice tool is not present in PATH. Skipping crash logs collection for real devices.
-[38;5;135m[2361860e][0m[38;5;165m[XCUITestDriver@c4ad][0m Setting up real device
-[38;5;135m[2361860e][0m[38;5;23m[DevCon Factory][0m Requesting connection for device 00008120-0009385E1A38201E on local port 64856, device port 64856
-[38;5;135m[2361860e][0m[38;5;23m[DevCon Factory][0m Successfully requested the connection for 00008120-0009385E1A38201E:64856
-[38;5;135m[2361860e][0m[38;5;151m[WD Proxy][0m socket hang up
-[38;5;135m[2361860e][0m[38;5;165m[XCUITestDriver@c4ad][0m Launching WebDriverAgent on the device
-[38;5;135m[2361860e][0m[38;5;165m[XCUITestDriver@c4ad][0m There is no need to perform the project cleanup. A fresh install has been detected
-[38;5;135m[2361860e][0m[38;5;165m[XCUITestDriver@c4ad][0m socket hang up
-[38;5;135m[2361860e][0m[38;5;165m[XCUITestDriver@c4ad][0m socket hang up
-[38;5;135m[2361860e][0m[38;5;165m[XCUITestDriver@c4ad][0m socket hang up
-[38;5;135m[2361860e][0m[38;5;165m[XCUITestDriver@c4ad][0m socket hang up
-[38;5;135m[2361860e][0m[38;5;165m[XCUITestDriver@c4ad][0m socket hang up
-[38;5;135m[2361860e][0m[38;5;165m[XCUITestDriver@c4ad][0m socket hang up
-[38;5;135m[2361860e][0m[38;5;165m[XCUITestDriver@c4ad][0m socket hang up
-[38;5;135m[2361860e][0m[38;5;165m[XCUITestDriver@c4ad][0m socket hang up
-[38;5;135m[2361860e][0m[38;5;165m[XCUITestDriver@c4ad][0m socket hang up
-[38;5;135m[2361860e][0m[38;5;165m[XCUITestDriver@c4ad][0m Determined the downstream protocol as 'W3C'
-[38;5;135m[2361860e][0m[38;5;165m[XCUITestDriver@c4ad][0m WDA session startup took 2359ms
-[38;5;135m[2361860e][0m[38;5;61m[AppiumDriver@2b1b][0m New XCUITestDriver session created successfully, session 2361860e-d9af-410b-b3e4-35620f97c256 added to master session list
-[38;5;135m[2361860e][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 200 13087 ms - 517 
+[38;5;107m[AppiumDriver@b821][0m Appium v2.17.1 creating new XCUITestDriver (v7.35.0) session
+[38;5;107m[AppiumDriver@b821][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;107m[AppiumDriver@b821][0m Appium's BaseDriver version is 9.16.4
+[38;5;107m[AppiumDriver@b821][0m XCUITestDriver's BaseDriver version is 9.16.4
+[38;5;179m[XCUITestDriver@44c7][0m The following provided capabilities were not recognized by this driver:
+[38;5;179m[XCUITestDriver@44c7][0m   waitForAppScript
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Session created with session id: f47d72b2-8a30-48c3-9a26-c520ee22aebc
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Determining device to run tests on: udid: '00008120-0009385E1A38201E', real device: true
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Normalized platformVersion capability value '16.5.1' to '16.5'
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Using WDA path: '/Users/thanh.pnguyen/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Using WDA agent: '/Users/thanh.pnguyen/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m The pyidevice tool is not present in PATH. Skipping crash logs collection for real devices.
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Setting up real device
+[38;5;80m[f47d72b2][0m[38;5;23m[DevCon Factory][0m Requesting connection for device 00008120-0009385E1A38201E on local port 61309, device port 61309
+[38;5;80m[f47d72b2][0m[38;5;23m[DevCon Factory][0m Successfully requested the connection for 00008120-0009385E1A38201E:61309
+[38;5;80m[f47d72b2][0m[38;5;151m[WD Proxy][0m socket hang up
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Launching WebDriverAgent on the device
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m There is no need to perform the project cleanup. A fresh install has been detected
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m socket hang up
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m socket hang up
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m socket hang up
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m socket hang up
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m socket hang up
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m socket hang up
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m socket hang up
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Determined the downstream protocol as 'W3C'
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m WDA session startup took 2330ms
+[38;5;80m[f47d72b2][0m[38;5;107m[AppiumDriver@b821][0m New XCUITestDriver session created successfully, session f47d72b2-8a30-48c3-9a26-c520ee22aebc added to master session list
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 200 11066 ms - 517 
 [38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
 [38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 111 
-[38;5;135m[2361860e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2361860e-d9af-410b-b3e4-35620f97c256/timeouts[39m {"implicit":60000}
-[38;5;135m[2361860e][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/2361860e-d9af-410b-b3e4-35620f97c256/timeouts 200 3 ms - 14 
-[38;5;135m[2361860e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2361860e-d9af-410b-b3e4-35620f97c256/appium/settings[39m {"settings":{"respectSystemAlerts":true}}
-[38;5;135m[2361860e][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/2361860e-d9af-410b-b3e4-35620f97c256/appium/settings 200 19 ms - 14 
-[38;5;135m[2361860e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2361860e-d9af-410b-b3e4-35620f97c256/execute/sync[39m {"script":"mobile: deviceScreenInfo","args":[]}
-[38;5;135m[2361860e][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/2361860e-d9af-410b-b3e4-35620f97c256/execute/sync 200 258 ms - 103 
-[38;5;135m[2361860e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2361860e-d9af-410b-b3e4-35620f97c256/execute/sync[39m {"script":"mobile: deviceScreenInfo","args":[]}
-[38;5;135m[2361860e][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/2361860e-d9af-410b-b3e4-35620f97c256/execute/sync 200 1 ms - 103 
-[38;5;135m[2361860e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2361860e-d9af-410b-b3e4-35620f97c256/execute/sync[39m {"script":"mobile: activateApp","args":[{"appId":"com.mobilink.jazzcash","bundleId":"com.mobilink.jazzcash"}]}
-[38;5;135m[2361860e][0m[38;5;123m[BaseDriver][0m The following script arguments are not known and will be ignored: appId
-[38;5;135m[2361860e][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/2361860e-d9af-410b-b3e4-35620f97c256/execute/sync 200 405 ms - 14 
-[38;5;135m[2361860e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2361860e-d9af-410b-b3e4-35620f97c256/execute/sync[39m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
-[38;5;135m[2361860e][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/2361860e-d9af-410b-b3e4-35620f97c256/execute/sync 200 1365 ms - 23806 
-[38;5;135m[2361860e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2361860e-d9af-410b-b3e4-35620f97c256/screenshot[39m {}
-[38;5;135m[2361860e][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/2361860e-d9af-410b-b3e4-35620f97c256/screenshot 200 262 ms - 2042120 
-[38;5;135m[2361860e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/2361860e-d9af-410b-b3e4-35620f97c256[39m {}
-[38;5;135m[2361860e][0m[38;5;61m[AppiumDriver@2b1b][0m Removing session 2361860e-d9af-410b-b3e4-35620f97c256 from our master session list
-[38;5;135m[2361860e][0m[38;5;23m[DevCon Factory][0m Releasing connections for 00008120-0009385E1A38201E device on any port number
-[38;5;135m[2361860e][0m[38;5;23m[DevCon Factory][0m Found cached connections to release: ["00008120-0009385E1A38201E:64856"]
-[38;5;135m[2361860e][0m[38;5;23m[DevCon Factory][0m Releasing the listener for '00008120-0009385E1A38201E:64856'
-[38;5;135m[2361860e][0m[38;5;86m[HTTP][0m <-- DELETE /wd/hub/session/2361860e-d9af-410b-b3e4-35620f97c256 200 1065 ms - 14 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/timeouts[39m {"implicit":60000}
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/timeouts 200 4 ms - 14 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/appium/settings[39m {"settings":{"respectSystemAlerts":true}}
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/appium/settings 200 33 ms - 14 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/execute/sync[39m {"args":[],"script":"mobile: deviceScreenInfo"}
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/execute/sync 200 305 ms - 103 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/execute/sync[39m {"args":[],"script":"mobile: deviceScreenInfo"}
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/execute/sync 200 2 ms - 103 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/execute/sync[39m {"args":[{"appId":"com.mobilink.jazzcash","bundleId":"com.mobilink.jazzcash"}],"script":"mobile: activateApp"}
+[38;5;80m[f47d72b2][0m[38;5;123m[BaseDriver][0m The following script arguments are not known and will be ignored: appId
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/execute/sync 200 574 ms - 14 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/execute/sync[39m {"args":[{"format":"xml","excludedAttributes":"visible"}],"script":"mobile: source"}
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/execute/sync 200 411 ms - 7853 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/screenshot[39m {}
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/screenshot 200 224 ms - 324708 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/execute/sync[39m {"args":[{"format":"xml","excludedAttributes":"visible"}],"script":"mobile: source"}
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/execute/sync 200 360 ms - 6331 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/screenshot[39m {}
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/screenshot 200 125 ms - 324392 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/window/rect[39m {}
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/window/rect 200 154 ms - 48 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/elements[39m {"value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Explore as Guest' and @name = 'Explore as Guest']","using":"xpath"}
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/elements 200 292 ms - 139 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/element/1D000000-0000-0000-2F32-000000000000/rect[39m {}
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Replacing sessionId A69A578E-8044-4CB5-8744-6575306DDF3A with f47d72b2-8a30-48c3-9a26-c520ee22aebc
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/element/1D000000-0000-0000-2F32-000000000000/rect 200 38 ms - 101 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/element/1D000000-0000-0000-2F32-000000000000/click[39m {"id":"1D000000-0000-0000-2F32-000000000000"}
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Replacing sessionId A69A578E-8044-4CB5-8744-6575306DDF3A with f47d72b2-8a30-48c3-9a26-c520ee22aebc
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/element/1D000000-0000-0000-2F32-000000000000/click 200 1659 ms - 65 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/execute/sync[39m {"args":[{"format":"xml","excludedAttributes":"visible"}],"script":"mobile: source"}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:38.595860+0700 WebDriverAgentRunner-Runner[12845:2647158] Cannot retrieve element attribute(s) (
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:38.607738+0700 WebDriverAgentRunner-Runner[12845:2647158] Cannot retrieve element attribute(s) (
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:38.623987+0700 WebDriverAgentRunner-Runner[12845:2647158] Cannot retrieve element attribute(s) (
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:38.644285+0700 WebDriverAgentRunner-Runner[12845:2647158] Cannot retrieve element attribute(s) (
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:38.672230+0700 WebDriverAgentRunner-Runner[12845:2647158] Cannot retrieve element attribute(s) (
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:38.698224+0700 WebDriverAgentRunner-Runner[12845:2647158] Cannot retrieve element attribute(s) (
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:38.719521+0700 WebDriverAgentRunner-Runner[12845:2647158] Cannot retrieve element attribute(s) (
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:38.745887+0700 WebDriverAgentRunner-Runner[12845:2647158] Cannot retrieve element attribute(s) (
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:38.768441+0700 WebDriverAgentRunner-Runner[12845:2647158] Cannot retrieve element attribute(s) (
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:38.790759+0700 WebDriverAgentRunner-Runner[12845:2647158] Cannot retrieve element attribute(s) (
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:38.948262+0700 WebDriverAgentRunner-Runner[12845:2647158] Cannot retrieve element attribute(s) (
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:38.953315+0700 WebDriverAgentRunner-Runner[12845:2647158] Cannot retrieve element attribute(s) (
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:38.967321+0700 WebDriverAgentRunner-Runner[12845:2647158] Cannot retrieve element attribute(s) (
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:38.980825+0700 WebDriverAgentRunner-Runner[12845:2647158] Cannot retrieve element attribute(s) (
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:38.994062+0700 WebDriverAgentRunner-Runner[12845:2647158] Cannot retrieve element attribute(s) (
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:39.007153+0700 WebDriverAgentRunner-Runner[12845:2647158] Cannot retrieve element attribute(s) (
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:39.019969+0700 WebDriverAgentRunner-Runner[12845:2647158] Cannot retrieve element attribute(s) (
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:39.044896+0700 WebDriverAgentRunner-Runner[12845:2647158] Cannot retrieve element attribute(s) (
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:39.049703+0700 WebDriverAgentRunner-Runner[12845:2647158] Cannot retrieve element attribute(s) (
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/execute/sync 200 1295 ms - 22100 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/screenshot[39m {}
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/screenshot 200 138 ms - 808264 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/window/rect[39m {}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    16.75s Get number of matches for: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    16.75s     Requesting snapshot of accessibility hierarchy for app with pid 32
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    16.85s     Find: Descendants matching type Any
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    16.85s     Find: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    16.85s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/window/rect 200 212 ms - 48 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/elements[39m {"value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Okay' and @name = 'Okay' and @value = 'Okay']","using":"xpath"}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    16.96s Get number of matches for: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    16.96s     Requesting snapshot of accessibility hierarchy for app with pid 32
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.04s     Find: Descendants matching type Any
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.04s     Find: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:42.955611+0700 WebDriverAgentRunner-Runner[12845:2647158] The following attributes were requested to be included into the XML: {(
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBTypeAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBLabelAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBNameAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBValueAttribute
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m )}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.05s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.50s Get all elements bound by index for: Elements matching predicate 'fb_uid IN {"4B000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.50s     Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.55s     Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.55s     Find: Elements matching predicate 'fb_uid IN {"4B000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.56s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.59s Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.59s Find: Elements matching predicate 'fb_uid IN {"4B000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.59s Find: Element at index 0
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/elements 200 653 ms - 139 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/element/4B000000-0000-0000-2F32-000000000000/rect[39m {}
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.61s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.64s Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.65s Find: Elements matching predicate 'fb_uid IN {"4B000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.65s Find: Element at index 0
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Replacing sessionId A69A578E-8044-4CB5-8744-6575306DDF3A with f47d72b2-8a30-48c3-9a26-c520ee22aebc
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/element/4B000000-0000-0000-2F32-000000000000/rect 200 51 ms - 101 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/element/4B000000-0000-0000-2F32-000000000000/click[39m {"id":"4B000000-0000-0000-2F32-000000000000"}
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.66s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.70s Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.70s Find: Elements matching predicate 'fb_uid IN {"4B000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.70s Find: Element at index 0
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.70s Tap "Okay" StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:43.610386+0700 WebDriverAgentRunner-Runner[12845:2647158] Waiting up to 10s until com.mobilink.jazzcash is in idle state (including animations)
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.70s     Wait for com.mobilink.jazzcash to idle
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.71s     Find the "Okay" StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.71s         Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.74s         Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.74s         Find: Elements matching predicate 'fb_uid IN {"4B000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.74s         Find: Element at index 0
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.74s Application is configured to skip UI interruption handling
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    17.75s     Synthesize event
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:43.940782+0700 WebDriverAgentRunner-Runner[12845:2647158] Waiting up to 10s until com.mobilink.jazzcash is in idle state (including animations)
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    18.03s     Wait for com.mobilink.jazzcash to idle
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Replacing sessionId A69A578E-8044-4CB5-8744-6575306DDF3A with f47d72b2-8a30-48c3-9a26-c520ee22aebc
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/element/4B000000-0000-0000-2F32-000000000000/click 200 719 ms - 65 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/execute/sync[39m {"args":[{"format":"xml","excludedAttributes":"visible"}],"script":"mobile: source"}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    19.03s Get number of matches for: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    19.04s     Requesting snapshot of accessibility hierarchy for app with pid 32
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    19.13s     Find: Descendants matching type Any
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    19.14s     Find: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:45.048829+0700 WebDriverAgentRunner-Runner[12845:2647158] The following attributes were requested to be included into the XML: {(
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBHeightAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBAccessibleAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBValueAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBWidthAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBEnabledAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBTypeAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBYAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBLabelAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBIndexAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBXAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBNameAttribute
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m )}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    19.14s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/execute/sync 200 1217 ms - 24951 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/screenshot[39m {}
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/screenshot 200 267 ms - 1495740 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/window/rect[39m {}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    24.37s Get number of matches for: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    24.38s     Requesting snapshot of accessibility hierarchy for app with pid 32
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    24.47s     Find: Descendants matching type Any
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    24.47s     Find: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    24.48s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/window/rect 200 203 ms - 48 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/elements[39m {"value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Money Transfer' and @name = 'Money Transfer' and @value = 'Money Transfer']","using":"xpath"}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    24.57s Get number of matches for: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    24.57s     Requesting snapshot of accessibility hierarchy for app with pid 32
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    24.66s     Find: Descendants matching type Any
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    24.67s     Find: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:50.577926+0700 WebDriverAgentRunner-Runner[12845:2647158] The following attributes were requested to be included into the XML: {(
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBTypeAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBLabelAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBNameAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBValueAttribute
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m )}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    24.67s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.08s Get all elements bound by index for: Elements matching predicate 'fb_uid IN {"57000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.08s     Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.13s     Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.13s     Find: Elements matching predicate 'fb_uid IN {"57000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.13s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.16s Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.17s Find: Elements matching predicate 'fb_uid IN {"57000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.17s Find: Element at index 0
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/elements 200 613 ms - 139 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/element/57000000-0000-0000-2F32-000000000000/rect[39m {}
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.18s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.22s Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.22s Find: Elements matching predicate 'fb_uid IN {"57000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.22s Find: Element at index 0
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Replacing sessionId A69A578E-8044-4CB5-8744-6575306DDF3A with f47d72b2-8a30-48c3-9a26-c520ee22aebc
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/element/57000000-0000-0000-2F32-000000000000/rect 200 48 ms - 101 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/element/57000000-0000-0000-2F32-000000000000/click[39m {"id":"57000000-0000-0000-2F32-000000000000"}
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.23s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.27s Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.27s Find: Elements matching predicate 'fb_uid IN {"57000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.27s Find: Element at index 0
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.28s Tap "Money Transfer" StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:51.184081+0700 WebDriverAgentRunner-Runner[12845:2647158] Waiting up to 10s until com.mobilink.jazzcash is in idle state (including animations)
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.28s     Wait for com.mobilink.jazzcash to idle
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.28s     Find the "Money Transfer" StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.28s         Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.32s         Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.32s         Find: Elements matching predicate 'fb_uid IN {"57000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.32s         Find: Element at index 0
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.32s Application is configured to skip UI interruption handling
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.32s     Synthesize event
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:51.525986+0700 WebDriverAgentRunner-Runner[12845:2647158] Waiting up to 10s until com.mobilink.jazzcash is in idle state (including animations)
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    25.62s     Wait for com.mobilink.jazzcash to idle
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Replacing sessionId A69A578E-8044-4CB5-8744-6575306DDF3A with f47d72b2-8a30-48c3-9a26-c520ee22aebc
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/element/57000000-0000-0000-2F32-000000000000/click 200 5245 ms - 65 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/execute/sync[39m {"args":[{"format":"xml","excludedAttributes":"visible"}],"script":"mobile: source"}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    31.15s Get number of matches for: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    31.15s     Requesting snapshot of accessibility hierarchy for app with pid 32
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    31.24s     Find: Descendants matching type Any
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    31.24s     Find: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:36:57.156030+0700 WebDriverAgentRunner-Runner[12845:2647158] The following attributes were requested to be included into the XML: {(
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBHeightAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBAccessibleAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBValueAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBWidthAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBEnabledAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBTypeAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBYAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBLabelAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBIndexAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBXAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBNameAttribute
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m )}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    31.25s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/execute/sync 200 1602 ms - 36461 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/screenshot[39m {}
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/screenshot 200 166 ms - 1071980 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/window/rect[39m {}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    37.58s Get number of matches for: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    37.58s     Requesting snapshot of accessibility hierarchy for app with pid 32
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    37.68s     Find: Descendants matching type Any
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    37.68s     Find: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    37.69s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/window/rect 200 240 ms - 48 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/elements[39m {"value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'JazzCash Transfer' and @name = 'JazzCash Transfer' and @value = 'JazzCash Transfer']","using":"xpath"}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    37.81s Get number of matches for: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    37.82s     Requesting snapshot of accessibility hierarchy for app with pid 32
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    37.91s     Find: Descendants matching type Any
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    37.91s     Find: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:37:03.823466+0700 WebDriverAgentRunner-Runner[12845:2647158] The following attributes were requested to be included into the XML: {(
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBTypeAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBLabelAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBNameAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBValueAttribute
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m )}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    37.92s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.49s Get all elements bound by index for: Elements matching predicate 'fb_uid IN {"AF000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.49s     Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.55s     Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.55s     Find: Elements matching predicate 'fb_uid IN {"AF000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.55s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.60s Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.60s Find: Elements matching predicate 'fb_uid IN {"AF000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.60s Find: Element at index 0
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/elements 200 812 ms - 139 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/element/AF000000-0000-0000-2F32-000000000000/rect[39m {}
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.63s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.68s Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.68s Find: Elements matching predicate 'fb_uid IN {"AF000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.68s Find: Element at index 0
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Replacing sessionId A69A578E-8044-4CB5-8744-6575306DDF3A with f47d72b2-8a30-48c3-9a26-c520ee22aebc
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/element/AF000000-0000-0000-2F32-000000000000/rect 200 68 ms - 101 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/element/AF000000-0000-0000-2F32-000000000000/click[39m {"id":"AF000000-0000-0000-2F32-000000000000"}
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.69s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.75s Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.75s Find: Elements matching predicate 'fb_uid IN {"AF000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.75s Find: Element at index 0
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.75s Tap "JazzCash Transfer" StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:37:04.660348+0700 WebDriverAgentRunner-Runner[12845:2647158] Waiting up to 10s until com.mobilink.jazzcash is in idle state (including animations)
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.75s     Wait for com.mobilink.jazzcash to idle
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.76s     Find the "JazzCash Transfer" StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.76s         Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.81s         Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.81s         Find: Elements matching predicate 'fb_uid IN {"AF000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.81s         Find: Element at index 0
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.81s Application is configured to skip UI interruption handling
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    38.81s     Synthesize event
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:37:05.012707+0700 WebDriverAgentRunner-Runner[12845:2647158] Waiting up to 10s until com.mobilink.jazzcash is in idle state (including animations)
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    39.11s     Wait for com.mobilink.jazzcash to idle
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Replacing sessionId A69A578E-8044-4CB5-8744-6575306DDF3A with f47d72b2-8a30-48c3-9a26-c520ee22aebc
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/element/AF000000-0000-0000-2F32-000000000000/click 200 782 ms - 65 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/execute/sync[39m {"args":[{"format":"xml","excludedAttributes":"visible"}],"script":"mobile: source"}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    40.15s Get number of matches for: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    40.15s     Requesting snapshot of accessibility hierarchy for app with pid 32
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    40.25s     Find: Descendants matching type Any
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    40.25s     Find: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:37:06.158918+0700 WebDriverAgentRunner-Runner[12845:2647158] The following attributes were requested to be included into the XML: {(
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBHeightAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBAccessibleAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBValueAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBWidthAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBEnabledAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBTypeAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBYAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBLabelAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBIndexAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBXAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBNameAttribute
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m )}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    40.25s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/execute/sync 200 1284 ms - 27356 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/screenshot[39m {}
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/screenshot 200 143 ms - 796192 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/window/rect[39m {}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    45.58s Get number of matches for: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    45.59s     Requesting snapshot of accessibility hierarchy for app with pid 32
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    45.69s     Find: Descendants matching type Any
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    45.69s     Find: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    45.69s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/window/rect 200 215 ms - 48 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/elements[39m {"value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Get Started' and @name = 'Get Started' and @value = 'Get Started']","using":"xpath"}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    45.79s Get number of matches for: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    45.80s     Requesting snapshot of accessibility hierarchy for app with pid 32
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    45.89s     Find: Descendants matching type Any
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    45.89s     Find: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:37:11.804815+0700 WebDriverAgentRunner-Runner[12845:2647158] The following attributes were requested to be included into the XML: {(
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBTypeAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBLabelAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBNameAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBValueAttribute
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m )}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    45.90s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.28s Get all elements bound by index for: Elements matching predicate 'fb_uid IN {"7E000000-0000-0000-2F32-000000000000", "CF000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.28s     Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.35s     Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.35s     Find: Elements matching predicate 'fb_uid IN {"7E000000-0000-0000-2F32-000000000000", "CF000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.36s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.41s Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.41s Find: Elements matching predicate 'fb_uid IN {"7E000000-0000-0000-2F32-000000000000", "CF000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.41s Find: Element at index 0
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.41s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.45s Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.46s Find: Elements matching predicate 'fb_uid IN {"7E000000-0000-0000-2F32-000000000000", "CF000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.46s Find: Element at index 1
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/elements 200 686 ms - 267 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/element/CF000000-0000-0000-2F32-000000000000/rect[39m {}
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.48s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.52s Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.52s Find: Elements matching predicate 'fb_uid IN {"7E000000-0000-0000-2F32-000000000000", "CF000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.52s Find: Element at index 0
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Replacing sessionId A69A578E-8044-4CB5-8744-6575306DDF3A with f47d72b2-8a30-48c3-9a26-c520ee22aebc
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/element/CF000000-0000-0000-2F32-000000000000/rect 200 57 ms - 101 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/element/CF000000-0000-0000-2F32-000000000000/click[39m {"id":"CF000000-0000-0000-2F32-000000000000"}
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.54s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.58s Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.58s Find: Elements matching predicate 'fb_uid IN {"7E000000-0000-0000-2F32-000000000000", "CF000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.58s Find: Element at index 0
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.59s Tap "Get Started" StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:37:12.493891+0700 WebDriverAgentRunner-Runner[12845:2647158] Waiting up to 10s until com.mobilink.jazzcash is in idle state (including animations)
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.59s     Wait for com.mobilink.jazzcash to idle
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.59s     Find the "Get Started" StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.59s         Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.63s         Find: Descendants matching type StaticText
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.63s         Find: Elements matching predicate 'fb_uid IN {"7E000000-0000-0000-2F32-000000000000", "CF000000-0000-0000-2F32-000000000000"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.63s         Find: Element at index 0
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.64s Application is configured to skip UI interruption handling
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.64s     Synthesize event
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:37:12.847204+0700 WebDriverAgentRunner-Runner[12845:2647158] Waiting up to 10s until com.mobilink.jazzcash is in idle state (including animations)
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    46.94s     Wait for com.mobilink.jazzcash to idle
+[38;5;80m[f47d72b2][0m[38;5;179m[XCUITestDriver@44c7][0m Replacing sessionId A69A578E-8044-4CB5-8744-6575306DDF3A with f47d72b2-8a30-48c3-9a26-c520ee22aebc
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/element/CF000000-0000-0000-2F32-000000000000/click 200 736 ms - 65 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/execute/sync[39m {"args":[{"format":"xml","excludedAttributes":"visible"}],"script":"mobile: source"}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    47.94s Get number of matches for: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    47.94s     Requesting snapshot of accessibility hierarchy for app with pid 32
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    48.04s     Find: Descendants matching type Any
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    48.04s     Find: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m 2025-04-01 09:37:13.951530+0700 WebDriverAgentRunner-Runner[12845:2647158] The following attributes were requested to be included into the XML: {(
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBHeightAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBAccessibleAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBValueAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBWidthAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBEnabledAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBTypeAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBYAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBLabelAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBIndexAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBXAttribute,
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     FBNameAttribute
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m )}
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    48.05s Requesting snapshot of accessibility hierarchy for app with pid 12847
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/execute/sync 200 665 ms - 12878 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/screenshot[39m {}
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc/screenshot 200 103 ms - 179932 
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc[39m {}
+[38;5;80m[f47d72b2][0m[38;5;107m[AppiumDriver@b821][0m Removing session f47d72b2-8a30-48c3-9a26-c520ee22aebc from our master session list
+[38;5;80m[f47d72b2][0m[38;5;173m[Xcode][0m     t =    51.39s Terminate com.mobilink.jazzcash:12847
+[38;5;80m[f47d72b2][0m[38;5;23m[DevCon Factory][0m Releasing connections for 00008120-0009385E1A38201E device on any port number
+[38;5;80m[f47d72b2][0m[38;5;23m[DevCon Factory][0m Found cached connections to release: ["00008120-0009385E1A38201E:61309"]
+[38;5;80m[f47d72b2][0m[38;5;23m[DevCon Factory][0m Releasing the listener for '00008120-0009385E1A38201E:61309'
+[38;5;80m[f47d72b2][0m[38;5;86m[HTTP][0m <-- DELETE /wd/hub/session/f47d72b2-8a30-48c3-9a26-c520ee22aebc 200 1027 ms - 14 
 [38;5;112m[Appium][0m Received SIGTERM - shutting down
 [38;5;86m[HTTP][0m Closing Appium HTTP server
 [38;5;86m[HTTP][0m Appium HTTP server has been succesfully closed after 0ms

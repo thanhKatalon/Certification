@@ -16,23 +16,30 @@ class Action {
 
 	@Keyword
 	def action(TestObject elementToCheck) {
-		int device_Height = Mobile.getDeviceHeight();
-		int device_Width = Mobile.getDeviceWidth();
-		Mobile.comment('[INFO] Device height: ' + device_Height + " and width: " + device_Width);
-				int startX = device_Width * 0.5;
-				int endX = device_Width * 0.5;
-				int startY = device_Height * 0.6;
-				int endY = device_Height * 0.1;
-
 
 		AppiumDriver driver = getCurrentSessionMobileDriver();
+
+		// calculate the device height and width
+		int device_Height = driver.manage().window().getSize().height
+		int device_Width = driver.manage().window().getSize().height
+		Mobile.comment('[INFO] Device height: ' + device_Height + " and width: " + device_Width);
+
+		// calculate the X and Y coordinates
+		int startX = device_Width * 0.5;
+		int endX = device_Width * 0.5;
+		int startY = device_Height * 0.6;
+		int endY = device_Height * 0.1;
+
 		if (driver instanceof IOSDriver) {
+
+			// 	use Pointer action to swipe
 			PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
 			Sequence sequence;
 			boolean isVisible = false;
 			int attempts = 0;
 			int maxAttempts = 5; // Set a maximum number of attempts
 
+			// swiping when the element is not visible
 			while (!isVisible && attempts < maxAttempts) {
 				sequence = new Sequence(finger, 2);
 				sequence.addAction(finger.createPointerMove(Duration.ofMillis(0), PointerInput.Origin.viewport(), startX, startY));
@@ -45,10 +52,11 @@ class Action {
 
 				// Check if the element is visible every 2 attempts
 				if (attempts % 2 == 0) {
-					isVisible = Mobile.verifyElementVisible(elementToCheck, 3, FailureHandling.OPTIONAL);
+					isVisible = Mobile.verifyElementVisible(elementToCheck, 5, FailureHandling.OPTIONAL);
 				}
 				attempts++;
 			}
+			// comment
 			Mobile.comment('Element is now visible!');
 		}
 	}

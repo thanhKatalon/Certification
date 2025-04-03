@@ -12,10 +12,10 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>c21f6ddd-a07b-4ae4-b3b5-3a6aec77d007</testSuiteGuid>
    <testCaseLink>
-      <guid>fdedb0b7-a145-422a-8eeb-bfe6fde25e1b</guid>
+      <guid>79b37ee4-c17f-4cef-8242-9531ed6aed5a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Jazz Cash_Sroll to Text</testCaseId>
+      <testCaseId>Test Cases/Add to Cart - Samsung</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

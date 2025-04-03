@@ -24,3 +24,4 @@ Windows.startApplication('C:\\Windows\\System32\\notepad.exe')
 
 WebUI.acceptAlert()
 
+Mobile.pressBack()

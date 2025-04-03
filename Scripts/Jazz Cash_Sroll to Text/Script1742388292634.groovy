@@ -20,50 +20,47 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.mobilink.jazzcash')
 
 //Mobile.startApplication('9db4aaf1-f555-4ba6-bda4-756346c8cbd8', true)
+not_run: Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeTextField - 03XXXXXXXXX'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeTextField - 03XXXXXXXXX'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 0'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 0'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 3'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 3'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 1'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 1'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 1'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 1'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 4'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 4'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 0'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 0'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 0'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 0'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 5'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 5'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 0'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 0'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 2'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 2'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 5'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 5'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeButton - Continue'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeButton - Continue'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 1 (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 1 (1)'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 2 (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 2 (1)'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 4 (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 4 (1)'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 5 (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - 5 (1)'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - Skip Tour'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - Skip Tour'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - Dont Allow'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - Dont Allow'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - More'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - More'), 0)
 
 Mobile.delay(2)
 
 CustomKeywords.'test.Testaction.action'(findTestObject('Object Repository/Jazz Cash/XCUIElementTypeStaticText - Government Payments'))
-
-
 

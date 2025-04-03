@@ -44,4 +44,24 @@
       <initValue>'/Users/thanh.pnguyen/Documents/Katalon/Certificate/file/ContactManager_01.apk'</initValue>
       <name>appPath_Test</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>startX</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>startY</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>endX</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>endY</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

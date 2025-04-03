@@ -37,7 +37,7 @@ class Testaction {
 
 				// Check if the element is visible every 2 attempts
 				if (attempts % 2 == 0) {
-					isVisible = Mobile.verifyElementVisible(elementToCheck, 3, FailureHandling.OPTIONAL);
+					isVisible = Mobile.verifyElementVisible(elementToCheck, 5, FailureHandling.OPTIONAL);
 				}
 				attempts++;
 			}
